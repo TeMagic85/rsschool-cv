@@ -12,7 +12,7 @@
     <div class="wrapper">
 <section class="person">
     <h1>Artem Sushko</h1>
-    <img src="../rsschool-cv/SAVE_20190822_142749.jpg" alt="img" width="200" height="200"></img>
+    <img src="../rsschool-cv/SAVE_20190822_142749.jpg" alt="img" width="200" height="200">
 </section>
 <section class="contacts">
     <h1>Contacts:</h1>
@@ -47,8 +47,8 @@
     <code>
 Array.prototype.filter = function(callback, thisArg) {
     const arr = [];
-    const _length = this.length;
-    for (let i=0; i<_length; i++) {
+    const length = this.length;
+    for (let i=0; i&ltlength; i++) {
     !(i in this) ? null : callback.call(thisArg, this[i], i, this) ?
     arr.push(this[i]) :
     null;
@@ -59,7 +59,7 @@ function numberOfPairs(gloves) {
     let count = 0;
     let clone = [...gloves];
     while(clone.length) {
-    clone.indexOf(clone[0],1)>0 ?
+    clone.indexOf(clone[0],1)&gt0 ?
     (count++, clone.splice(clone.indexOf(clone[0],1),1), clone.shift()) :
     clone.shift();
     }

@@ -1,0 +1,26 @@
+
+.wrapper {
+    max-width: 800px;
+    padding: 10px 10px;
+    margin: auto auto;
+    background: rgb(227,227,227);
+    background: linear-gradient(41deg, rgba(227,227,227,1) 23%, rgba(212,211,211,1) 44%, rgba(194,191,191,1) 70%);
+}
+
+.person > h1 {
+    font: 36px Georgia, serif;
+}
+
+.contacts > ul,
+.about > p,
+.skills > ul,
+.education > ul,
+.language > ul {
+    line-height: 1.7rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+pre {
+    margin: 0;
+}

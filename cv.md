@@ -1,4 +1,7 @@
 # **Artem Sushko**
+<img src="../rsschool-cv/SAVE_20190822_142749.jpg" alt="img" width="200" height="200"/>
+
+
 ## Contacts:
 E-mail: sushkoartem85@yandex.by
 

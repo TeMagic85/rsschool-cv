@@ -7,10 +7,12 @@ E-mail: sushkoartem85@yandex.by
 GitHub: [TeMagic85](https://github.com/TeMagic85)
 
 Discrd: TeMagic85#7743
+
 ***
 
 ## About myself:
 When I first discovered the world of IT, I realized that I really like writing code and constantly learning something new, improving. Maybe I'm too responsible. "The harder it is, the more interesting it is!" - such a motto in the learning process)
+
 ***
 ## Skills:
 * HTML
@@ -19,6 +21,7 @@ When I first discovered the world of IT, I realized that I really like writing c
 * Git/Github
 * Figma
 * Editors: Sublime, VSCode
+
 ***
 ## Code examples:
 ```JavaScript
@@ -41,11 +44,13 @@ function numberOfPairs(gloves)
   return count;
 };
 ```
+
 ***
 
 ## Education:
 * IT-Academy: website development with HTML/CSS & JavaScript
 * IT-Academy: WEB development with JavaScript
+
 ***
 ## Language:
 English level - Intermediate(B1)

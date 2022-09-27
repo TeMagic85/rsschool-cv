@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+<section class="person">
+    <h1>Artem Sushko</h1>
+    <img src="../rsschool-cv/SAVE_20190822_142749.jpg" alt="img" width="200" height="200">
+</section>
+<section class="contacts">
+    <h1>Contacts:</h1>
+    <ul>
+        <li>E-mail:
+            <a href="mailto:sushkoartem85@yandex.by">sushkoartem85@yandex.by</a>
+        </li>
+        <li>GitHub:
+            <a href="https://github.com/TeMagic85" target="_blank">TeMagic85</a>
+        </li>
+        <li>Discord: TeMagic85#7743</li>
+    </ul>
+</section>
+<section class="about">
+    <h1>About myself:</h1>
+    <p>When I first discovered the world of IT, I realized that I really like writing code and constantly learning something new, improving. Maybe I'm too responsible. "The harder it is, the more interesting it is!" - such a motto in the learning process :)</p>
+</section>
+<section class="skills">
+    <h1>Skills:</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS(SCSS)</li>
+        <li>JavaScript (Functional Programming, DOM, OOP, MVC, SPA, Asynchronous JavaScript, Canvas, SVG, JSON, AJAX, ES6+)</li>
+        <li>Git/Github</li>
+        <li>Figma</li>
+        <li>Editors: Sublime, VSCode</li>
+    </ul>
+</section>
+<section class="code">
+    <h1>Code examples:</h1>
+<pre>
+    <code>
+Array.prototype.filter = function(callback, thisArg) {
+    const arr = [];
+    const length = this.length;
+    for (let i=0; i &lt length; i++) {
+    !(i in this) ? null : callback.call(thisArg, this[i], i, this) ?
+    arr.push(this[i]) :
+    null;
+    }
+    return arr;
+};------------------------------------------
+function numberOfPairs(gloves) {
+    let count = 0;
+    let clone = [...gloves];
+    while(clone.length) {
+    clone.indexOf(clone[0],1) &gt 0 ?
+    (count++, clone.splice(clone.indexOf(clone[0],1),1), clone.shift()) :
+    clone.shift();
+    }
+    return count;
+};
+    </code>
+</pre>
+</section>
+<section class="education">
+    <h1>Education:</h1>
+    <ul>
+        <li>IT-Academy: website development with HTML/CSS &amp JavaScript</li>
+        <li>IT-Academy: WEB development with JavaScript</li>
+    </ul>
+</section>
+<section class="language">
+    <h1>Language:</h1>
+    <ul>
+        <li>English level - Intermediate(B1)</li>
+    </ul>
+</section>
+</div>
+</body>
+</html>

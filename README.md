@@ -1,1 +1,1 @@
-# rsschool-cv
+https://TeMagic85.github.io/rsschool-cv/

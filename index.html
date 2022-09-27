@@ -59,7 +59,7 @@ function numberOfPairs(gloves) {
     let count = 0;
     let clone = [...gloves];
     while(clone.length) {
-    clone.indexOf(clone[0],1)&gt0 ?
+    clone.indexOf(clone[0],1) &gt 0 ?
     (count++, clone.splice(clone.indexOf(clone[0],1),1), clone.shift()) :
     clone.shift();
     }

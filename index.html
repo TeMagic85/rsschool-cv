@@ -48,7 +48,7 @@
 Array.prototype.filter = function(callback, thisArg) {
     const arr = [];
     const length = this.length;
-    for (let i=0; i&ltlength; i++) {
+    for (let i=0; i &lt length; i++) {
     !(i in this) ? null : callback.call(thisArg, this[i], i, this) ?
     arr.push(this[i]) :
     null;

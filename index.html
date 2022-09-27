@@ -12,14 +12,18 @@
     <div class="wrapper">
 <section class="person">
     <h1>Artem Sushko</h1>
-    <img src="../rsschool-cv/SAVE_20190822_142749.jpg" alt="img" width="200" height="200"/>
+    <img src="../rsschool-cv/SAVE_20190822_142749.jpg" alt="img" width="200" height="200">
 </section>
 <section class="contacts">
     <h1>Contacts:</h1>
     <ul>
-        <li>E-mail:&nbsp<a href="mailto:sushkoartem85@yandex.by">sushkoartem85@yandex.by</a></li>
-        <li>GitHub:&nbsp<a href="https://github.com/TeMagic85" target="_blank">TeMagic85</a></li>
-        <li>Discord: TeMagic85#7743</a></li>
+        <li>E-mail:
+            <a href="mailto:sushkoartem85@yandex.by">sushkoartem85@yandex.by</a>
+        </li>
+        <li>GitHub:
+            <a href="https://github.com/TeMagic85" target="_blank">TeMagic85</a>
+        </li>
+        <li>Discord: TeMagic85#7743</li>
     </ul>
 </section>
 <section class="about">
@@ -43,8 +47,8 @@
     <code>
 Array.prototype.filter = function(callback, thisArg) {
     const arr = [];
-    const _length = this.length;
-    for (let i=0; i<_length; i++) {
+    const length = this.length;
+    for (let i=0; i &lt length; i++) {
     !(i in this) ? null : callback.call(thisArg, this[i], i, this) ?
     arr.push(this[i]) :
     null;
@@ -55,7 +59,7 @@ function numberOfPairs(gloves) {
     let count = 0;
     let clone = [...gloves];
     while(clone.length) {
-    clone.indexOf(clone[0],1)>0 ?
+    clone.indexOf(clone[0],1) &gt 0 ?
     (count++, clone.splice(clone.indexOf(clone[0],1),1), clone.shift()) :
     clone.shift();
     }
@@ -67,7 +71,7 @@ function numberOfPairs(gloves) {
 <section class="education">
     <h1>Education:</h1>
     <ul>
-        <li>IT-Academy: website development with HTML/CSS & JavaScript</li>
+        <li>IT-Academy: website development with HTML/CSS &amp JavaScript</li>
         <li>IT-Academy: WEB development with JavaScript</li>
     </ul>
 </section>

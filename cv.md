@@ -6,7 +6,7 @@ E-mail: sushkoartem85@yandex.by
 
 GitHub: [TeMagic85](https://github.com/TeMagic85)
 
-Discrd: TeMagic85#7743
+Discord: TeMagic85#7743
 
 ***
 
